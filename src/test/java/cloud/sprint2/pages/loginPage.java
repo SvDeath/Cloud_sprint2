@@ -1,5 +1,6 @@
 package cloud.sprint2.pages;
 
+import cloud.sprint2.utilities.ConfigurationReader;
 import cloud.sprint2.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -21,6 +22,17 @@ public class loginPage {
 
     @FindBy(xpath = "//input[@value='Log in']")
     public WebElement loginButton;
+
+    public void login(String username, String password){
+        this.inputUsername.sendKeys(username);
+        this.inputPassword.sendKeys(password);
+        this.loginButton.click();
+    }
+    public void login(){
+        this.inputUsername.sendKeys("Employee42");
+        this.inputPassword.sendKeys("Employee123");
+        this.loginButton.click();
+    }
 
 
 }
