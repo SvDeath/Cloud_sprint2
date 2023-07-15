@@ -57,6 +57,8 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>7.3.2</version>
+            <scope>test</scope>
+
         </dependency>
 
 
