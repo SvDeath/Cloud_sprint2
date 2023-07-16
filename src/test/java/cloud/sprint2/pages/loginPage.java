@@ -32,7 +32,14 @@ public class loginPage {
         this.inputUsername.sendKeys("Employee42");
         this.inputPassword.sendKeys("Employee123");
         this.loginButton.click();
+
+
+
+
+
+
     }
+
 
 
 
