@@ -20,6 +20,10 @@ public class Hooks {
         loginPage.login();
 
     }
+    //@AfterStep
+    public void after(){
+        BrowserUtils.sleep(2);
+    }
 
 
 

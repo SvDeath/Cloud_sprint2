@@ -1,6 +1,6 @@
 package cloud.sprint2.pages;
 
-import cloud.sprint2.utilities.ConfigurationReader;
+
 import cloud.sprint2.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,7 +29,7 @@ public class loginPage {
         this.loginButton.click();
     }
     public void login(){
-        this.inputUsername.sendKeys("Employee42");
+        this.inputUsername.sendKeys("Employee22");
         this.inputPassword.sendKeys("Employee123");
         this.loginButton.click();
     }
